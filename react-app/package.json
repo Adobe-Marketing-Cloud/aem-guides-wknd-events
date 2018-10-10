@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@adobe/cq-react-editable-components": "^1.0.3",
+    "@adobe/cq-spa-component-mapping": "^1.0.3",
+    "@adobe/cq-spa-page-model-manager": "^1.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-fast-compare": "^2.0.2",
     "react-scripts": "2.0.4"
   },
   "scripts": {
@@ -23,6 +27,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "aem-clientlib-generator": "^1.4.1"
+    "aem-clientlib-generator": "^1.4.1",
+    "ajv": "^6.5.4",
+    "clone": "^2.1.2"
   }
 }
