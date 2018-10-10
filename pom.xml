@@ -24,6 +24,8 @@
 
     <modules>
         <module>core</module>
+        <!-- add React App -->
+        <module>react-app</module>
         <module>ui.apps</module>
         <module>ui.content</module>
     </modules>
@@ -37,6 +39,12 @@
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
+
+        <!-- Update: Used by frontend-maven-plugin -->
+        <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
+        <node.version>v10.8.0</node.version>
+        <npm.version>6.2.0</npm.version>
+        <!-- end update -->
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
