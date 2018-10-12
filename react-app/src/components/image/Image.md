@@ -1,6 +1,13 @@
-Image example:
+Image:
+
+```js
+<Image  alt="Alternative Text here"
+src="mock-image.jpeg"/>
+```
+
+Image with a caption:
 
 ```js
 <Image  alt="Alternative Text here" title="This is a caption" 
-src="/content/wknd-events/react/home/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1539196394835.jpeg"/>
+src="mock-image.jpeg"/>
 ```
