@@ -1,5 +1,9 @@
 @import '../../styles/shared';
 
+$icon-size-lg: 46px;
+$icon-size-md: 40px;
+$icon-size-sm: 32px;
+
 .Header {
     background-color: $color-primary;
     height: $header-height;
@@ -32,4 +36,47 @@
     &-title--inverse {
         color: $color-white;
     }
+
+    &-tools {
+        padding-top: 8px;
+        padding-right: $gutter-padding;
+    }
+
+    &-action {
+        background: $color-white;
+        border-radius: 100%;
+        width:  $icon-size-sm;
+        height:   $icon-size-sm;
+        font-size:   18px;
+        color: $color-black;
+        text-align: center;
+        align-content: center;
+        float: left;
+        margin-right: 1.5rem;
+        
+        &:last-child {
+          margin-right: 0;
+        }
+    
+        .svg-inline--fa {
+          position:relative;
+          top: 2.5px;
+          right: 1px;
+        }
+    
+    
+    
+        @include media(desktop) {
+          width:  $icon-size-lg;
+          height:   $icon-size-lg;
+          font-size:   26px;
+        }
+    
+        @include media(tablet) {
+          width:  $icon-size-md;
+          height:   $icon-size-md;
+          font-size:   22px;
+        }
+      }
+      
   }

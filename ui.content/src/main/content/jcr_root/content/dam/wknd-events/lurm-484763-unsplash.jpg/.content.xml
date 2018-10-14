@@ -2,16 +2,16 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="122ca431-19c3-4608-9bc7-d2527ac009f5">
+    jcr:uuid="40b71798-a78a-43e9-aa6f-654853a2c133">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="wknd-events/lance-asper-152203-unsplash.jpg"
-        jcr:lastModified="{Date}2018-10-14T11:03:34.567-04:00"
+        dam:relativePath="wknd-events/lurm-484763-unsplash.jpg"
+        jcr:lastModified="{Date}2018-10-14T11:04:22.225-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-14T11:03:34.287-04:00"
+            dam:extracted="{Date}2018-10-14T11:04:21.875-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,13 +21,22 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="d262f5e788ccf4a93bae2df3a7753af2c4be89bc"
-            dam:size="{Long}803264"
+            dam:sha1="8a9e29dedec3d04a5236b8d8f6d2e84d2186b13c"
+            dam:size="{Long}594786"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}1041"
-            tiff:ImageWidth="{Long}1850"/>
+            tiff:ImageLength="{Long}1824"
+            tiff:ImageWidth="{Long}2736"/>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-10-14T11:04:58.778-04:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

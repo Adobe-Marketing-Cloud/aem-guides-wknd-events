@@ -1,0 +1,30 @@
+@import '../../styles/shared';
+
+.List {
+    @include component-padding();
+}
+
+.ListItem {
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: $lead-font-size;
+    padding: 4px;
+    color: #0045ff;
+
+    &:hover {
+        background-color: #ededed;
+    }
+
+    &-link {
+        text-decoration: none;
+    }
+
+    &-date {
+        width: 100%;
+        float:left;
+        color: $color-secondary;
+        font-size: $base-font-size;
+    }
+}
