@@ -184,6 +184,14 @@
                                             "richText": true,
                                             ":type": "wknd-events/components/content/text"
                                         },
+                                        "gmap": {
+                                            "apiKey": "YOUR_API_KEY_HERE",
+                                            "zoom": 15,
+                                            "label": "Venue Map",
+                                            "lat": 35.6895,
+                                            "lng": 139.6917,
+                                            ":type": "wknd-events/components/content/gmap"
+                                        },
                                         "text_1183005514": {
                                             "text": "<p>Morbi euismod magna ac lorem rutrum elementum.</p>\n",
                                             "richText": true,
@@ -192,6 +200,7 @@
                                     },
                                     ":itemsOrder": [
                                         "text",
+                                        "gmap",
                                         "text_1183005514"
                                     ],
                                     ":type": "wcm/foundation/components/responsivegrid"
