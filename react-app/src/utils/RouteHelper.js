@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 /**
  * Helper that facilitate the use of the {@link Route} component
@@ -29,3 +30,19 @@ export const withRoute = (WrappedComponent, extension) => {
         }
     }
 };
+
+/**
+ * ScrollToTop component will scroll the window on every navigation.
+ * wrapped in in `withRouter` to have access to router's props.
+ */
+class ScrollToTop extends Component {
+    componentDidUpdate(prevProps) {
+      if (this.props.location !== prevProps.location) {
+        window.scrollTo(0, 0)
+      }
+    }
+    render() {
+      return this.props.children
+    }
+  }
+  export default withRouter(ScrollToTop);
