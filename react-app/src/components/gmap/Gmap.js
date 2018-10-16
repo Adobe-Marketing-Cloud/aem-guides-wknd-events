@@ -14,8 +14,8 @@ const GmapEditConfig = {
 
     emptyLabel: 'Google Map',
 
-    isEmpty: function() {
-        return !this.props || !this.props.lat || !this.props.lng;
+    isEmpty: function(props) {
+        return !props || !props.lat || !props.lng;
     }
 };
 
@@ -56,21 +56,29 @@ export default class Gmap extends Component {
                 label = <Label lat={params.center.lat} lng={params.center.lng} text={this.props.label} />;
             }
 
-            return (  <GoogleMapReact
-                bootstrapURLKeys={{ key: this.props.apiKey }}
-                defaultCenter={params.center}
-                defaultZoom={params.zoom}>
-                {label}
-              </GoogleMapReact>
+            return (  
+                <div className="Gmap">
+                    <GoogleMapReact
+                        bootstrapURLKeys={{ key: this.props.apiKey }}
+                        defaultCenter={params.center}
+                        defaultZoom={params.zoom}>
+                        {label}
+                </GoogleMapReact>
+                </div>
+              
             );
         }
-        return <div>No api key defined! Map cannot be rendered</div>;
+
+        if(!this.props.apiKey) {
+            return <div>No api key defined! Map cannot be rendered</div>;
+        }
+
+        return null;
+        
     }
 
     render() {
-        return ( <div className="Gmap">
-            {this.map}
-            </div>);
+        return this.map;
     }
 }
 

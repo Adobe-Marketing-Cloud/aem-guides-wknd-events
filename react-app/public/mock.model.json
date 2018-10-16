@@ -187,7 +187,7 @@
                                         "gmap": {
                                             "apiKey": "YOUR_API_KEY_HERE",
                                             "zoom": 15,
-                                            "label": "Venue Map",
+                                            "label": "My Map",
                                             "lat": 35.6895,
                                             "lng": 139.6917,
                                             ":type": "wknd-events/components/content/gmap"
