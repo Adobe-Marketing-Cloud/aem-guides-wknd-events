@@ -31,7 +31,7 @@ class ListItem extends Component {
             return null;
         }
         return (
-            <li className="ListItem" key={this.props.path}>
+            <li className="ListItem">
                 <Link className="ListItem-link" to={this.props.url}>{this.props.title}
                     <span className="ListItem-date">{this.date}</span>
                 </Link>
@@ -49,7 +49,7 @@ export default class List extends Component {
                 <div className="List">
                     <ul className="List-wrapper">
                         { this.props.items && this.props.items.map((listItem, index) => {
-                            return <ListItem path={listItem.path} url={listItem.url} 
+                            return <ListItem key={listItem.path} path={listItem.path} url={listItem.url} 
                                              title={listItem.title} date={listItem.lastModified} />
                             })
                        }
@@ -58,5 +58,5 @@ export default class List extends Component {
         );
     }
 }
-
+ 
 MapTo("wknd-events/components/content/list")(List, ListEditConfig);
