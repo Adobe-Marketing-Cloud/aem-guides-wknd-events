@@ -2,16 +2,16 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="122ca431-19c3-4608-9bc7-d2527ac009f5">
+    jcr:uuid="3a79142a-daeb-4994-aa70-a37facecc89c">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="wknd-events/lance-asper-152203-unsplash.jpg"
-        jcr:lastModified="{Date}2018-10-14T11:03:34.567-04:00"
+        dam:relativePath="wknd-events/ablimit-ablet-639666-unsplash.jpg"
+        jcr:lastModified="{Date}2018-10-14T11:03:54.516-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-14T11:03:34.287-04:00"
+            dam:extracted="{Date}2018-10-14T11:03:54.124-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,13 +21,13 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="d262f5e788ccf4a93bae2df3a7753af2c4be89bc"
-            dam:size="{Long}803264"
+            dam:sha1="32e53af290651d005a2ee54b37a49040b0507608"
+            dam:size="{Long}1254658"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}1041"
-            tiff:ImageWidth="{Long}1850"/>
+            tiff:ImageLength="{Long}2636"
+            tiff:ImageWidth="{Long}1758"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

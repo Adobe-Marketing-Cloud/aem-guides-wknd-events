@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-10-14T11:09:04.910-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-events/settings/wcm/templates/wknd-events-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="First Article"
+        jcr:uuid="c16b12d4-f3fb-4a41-808f-5ceb0eb35aa6"
+        sling:resourceType="wknd-events/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text
+                    jcr:created="{Date}2018-10-10T14:06:48.656-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-10-12T13:49:23.949-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-events/components/content/text"
+                    text="&lt;h1>First Article&lt;/h1>&#xa;"
+                    textIsRich="true"/>
+                <responsivegrid
+                    jcr:created="{Date}2018-10-12T13:49:28.574-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-10-12T13:49:28.574-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <text
+                        jcr:created="{Date}2018-10-12T13:59:43.380-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-12T14:17:16.273-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <image
+                        jcr:created="{Date}2018-10-12T14:17:19.973-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-12T14:18:12.716-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="California Highway"
+                        sling:resourceType="wknd-events/components/content/image"
+                        alt="California highway"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd-events/lance-asper-152203-unsplash.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="false"/>
+                    <text_279202033
+                        jcr:created="{Date}2018-10-12T14:18:38.012-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-12T14:31:18.226-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim.&amp;nbsp;&lt;/p>&#xa;&lt;p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit.&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                    </text_279202033>
+                </responsivegrid>
+                <responsivegrid_399366997
+                    jcr:created="{Date}2018-10-12T13:49:41.338-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-10-12T13:49:41.338-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <text
+                        jcr:created="{Date}2018-10-12T14:00:04.797-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-12T14:00:31.227-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;h4>Sidebar heading&lt;/h4>&#xa;"
+                        textIsRich="true">
+                    </text>
+                    <text_1183005514
+                        jcr:created="{Date}2018-10-12T14:31:40.491-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-12T14:31:45.665-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Morbi euismod magna ac lorem rutrum elementum.&lt;/p>&#xa;"
+                        textIsRich="true">
+                    </text_1183005514>
+                </responsivegrid_399366997>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
