@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd-events"/>
+    <filter root="/content/wknd-events" mode="merge"/>
+    <filter root="/content/dam/wknd-events" mode="merge"/>
+</workspaceFilter>
