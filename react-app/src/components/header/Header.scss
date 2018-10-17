@@ -1,0 +1,35 @@
+@import '../../styles/shared';
+
+.Header {
+    background-color: $color-primary;
+    height: $header-height;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+
+    @include media(tablet,desktop) {
+      height: $header-height-big;
+    }
+
+    &-wrapper {
+        @include content-area();
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-title {
+        font-family: 'Helvetica';
+        font-size: 20px; 
+        float: left;
+        padding-left: $gutter-padding;
+    
+        @include media(tablet,desktop) {
+          font-size: 24px;
+        }
+    }
+
+    &-title--inverse {
+        color: $color-white;
+    }
+  }

@@ -8,6 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm run build](#npm-run-build)
+  - [npm run styleguide](#npm-run-style-guide)
   
 
 ## Available Scripts
@@ -29,4 +30,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+### `npm run styleguide`
+
+Runs the app with [React Styleguidist](https://react-styleguidist.js.org/)
+Open [http://localhost:6060](http://localhost:6060) to view it in the browser.
+
+See all of the components in isolation with various states.
+
 
