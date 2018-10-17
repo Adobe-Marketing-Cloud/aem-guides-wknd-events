@@ -1,0 +1,35 @@
+@import '../../styles/shared';
+
+.Image {
+  @include component-padding();
+
+  &-image {
+    margin: 2rem 0;
+    width: 100%;
+    border: 0;
+    font: inherit;
+    padding: 0;
+    vertical-align: baseline; 
+  }
+
+  &-caption {
+    color: $color-white;
+    background-color: $color-black;
+    height: 3em;
+    position: relative;
+    padding: 20px 10px;
+    top: -10px;
+    @include drop-shadow();
+
+    @include media(tablet) {
+        padding: 25px 15px;
+        top: -14px;
+    }
+
+    @include media(desktop) {
+        padding: 30px 20px;
+        top: -16px;
+    }
+  }
+
+}

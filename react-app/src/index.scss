@@ -1,0 +1,96 @@
+@import './styles/shared';
+
+// theme/WKND Events
+//Google Font import
+@import url('https://fonts.googleapis.com/css?family=Asar|Source+Sans+Pro:400,600,700');
+
+
+body {
+    //font-weight: $normal;
+    background-color: $color-white;
+    font-family: $font-sans;
+    margin: 0;
+    padding: 0;
+
+    font-weight: $font-weight-light;
+    font-size: $em-base;
+    text-align: left;
+    color: $color-black;
+    line-height: 1.5;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    padding-top: $header-height-big;
+    @include media(mobile, tablet) {
+        padding-top: $header-height;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-family: $font-sans;
+}
+
+h1 {
+  font-size:  $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+h5 {
+  font-size: $h5-font-size;
+}
+
+h6 {
+  font-size: $h6-font-size;
+}
+
+p {
+  color: $color-text;
+  font-family: $font-serif;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+// abstracts/overrides
+
+ol, ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    height: 2px;
+    //background-color: fade($dusty-gray, (.3*100));
+    border: 0 none;
+    margin: 0 auto;
+    max-width: $max-width;
+}
+
+*:focus {
+    outline: none;
+}
+
+textarea:focus, input:focus{
+        outline: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}

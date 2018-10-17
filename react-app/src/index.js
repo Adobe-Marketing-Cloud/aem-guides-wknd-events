@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ModelManager, Constants } from '@adobe/cq-spa-page-model-manager';
-import './index.css';
+import './index.scss';
 import App from './App';
 import "./components/MappedComponents";
 

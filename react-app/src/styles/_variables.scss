@@ -1,0 +1,54 @@
+//variables for WKND Events
+
+//Typography
+$em-base:             20px;
+$base-font-size:      1rem;
+$small-font-size:     1.4rem;
+$lead-font-size:      2rem;
+$title-font-size:     5.2rem;
+$h1-font-size:        3rem;
+$h2-font-size:        2.5rem;
+$h3-font-size:        2rem;
+$h4-font-size:        1.5rem;
+$h5-font-size:        1.3rem;
+$h6-font-size:        1rem;
+$base-line-height:    1.5;
+$heading-line-height: 1.3;
+$lead-line-height:    1.7;
+
+$font-serif:         'Asar', serif;
+$font-sans:          'Source Sans Pro', sans-serif;
+
+$font-weight-light:      300;
+$font-weight-normal:     400;
+$font-weight-semi-bold:  600;
+$font-weight-bold:       700;
+
+//Colors
+$color-white:            #ffffff;
+$color-black:            #080808;
+
+$color-yellow:           #FFEA08;
+$color-gray:             #808080;
+$color-dark-gray:        #707070;
+
+//Functional Colors
+
+$color-primary:          $color-yellow;
+$color-secondary:        $color-gray;
+$color-text:             $color-gray;
+            
+
+//Layout
+$max-width: 1200px;
+$header-height: 80px;
+$header-height-big: 100px;
+
+// Spacing
+$gutter-padding: 12px;
+
+// Mobile Breakpoints
+$mobile-screen: 160px;
+$small-screen:  767px;
+$medium-screen: 992px;
+  

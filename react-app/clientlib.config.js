@@ -11,6 +11,7 @@ module.exports = {
         categories: ["wknd-events.react"],
         serializationFormat: "xml",
         jsProcessor: ["min:gcc"],
+        dependencies:["wknd-events.grid"],
         assets: {
             js: [
                 "build/static/**/*.js"
