@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-10-14T11:10:04.319-04:00"
+        cq:lastModified="{Date}2018-10-15T22:48:48.367-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd-events/settings/wcm/templates/wknd-events-page-template"
         jcr:primaryType="cq:PageContent"
@@ -98,6 +98,13 @@
                         text="&lt;p>Morbi euismod magna ac lorem rutrum elementum.&lt;/p>&#xa;"
                         textIsRich="true"/>
                 </responsivegrid_399366997>
+                <gmap
+                    jcr:created="{Date}2018-10-15T22:48:48.365-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-10-15T22:48:48.365-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-events/components/content/gmap"/>
             </responsivegrid>
         </root>
     </jcr:content>
