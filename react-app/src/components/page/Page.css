@@ -1,0 +1,9 @@
+/* Center and max-width the content */
+.WkndPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px;
+    padding: 0;
+    float: unset !important; 
+  }
+  
