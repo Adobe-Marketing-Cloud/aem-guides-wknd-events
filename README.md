@@ -2,6 +2,8 @@
 
 This is the code companion for a tutorial that walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
 
+View the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
+
 ## Modules
 
 The main parts of the template are:
