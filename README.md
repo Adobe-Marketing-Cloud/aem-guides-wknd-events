@@ -58,6 +58,14 @@ There are three levels of testing contained in the project:
 
 ## Maven settings
 
-The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
+If you experience the following error when building:
+
+```
+[ERROR] Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 
+```
+
+Use `mvn clean install -PautoInstallPackage -Padobe-public` command. 
+
+Alternatively you can add the `adobe-public` repository to your Maven settings by referring to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
