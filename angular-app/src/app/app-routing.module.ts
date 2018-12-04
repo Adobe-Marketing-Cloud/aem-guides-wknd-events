@@ -2,7 +2,7 @@ import { NgModule, Injectable } from '@angular/core';
 import { Routes, RouterModule, UrlSegment, UrlMatchResult,
          Resolve, ActivatedRouteSnapshot,
          DetachedRouteHandle, RouteReuseStrategy } from '@angular/router';
-import { PageComponent} from "./components/page/page.component";
+import { PageComponent} from './components/page/page.component';
 
 export function AemPageMatcher ( url: UrlSegment[] ): UrlMatchResult {
   const path = url.join('/');
