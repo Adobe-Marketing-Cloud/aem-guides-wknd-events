@@ -1,0 +1,45 @@
+@import "~src/styles/shared";
+
+.header {
+  background-color: $color-primary;
+  height: $header-height;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+
+  @include media(tablet, desktop) {
+    height: $header-height-big;
+  }
+
+  .wrapper {
+    @include content-area();
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link {
+      text-decoration: none;
+      color: $color-black;
+
+      &:active {
+      text-decoration: none;
+      color: $color-black;
+      }
+  }
+
+  .title {
+    float: left;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    padding-left: $gutter-padding;
+
+    @include media(tablet, desktop) {
+      font-size: 24px;
+    }
+
+    &--inverse {
+      color: $color-white;
+    }
+  }
+}
