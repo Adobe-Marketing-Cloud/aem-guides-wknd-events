@@ -11,6 +11,9 @@
   },
   "private": true,
   "dependencies": {
+    "@adobe/cq-angular-editable-components": "^1.0.3",
+    "@adobe/cq-spa-component-mapping": "^1.0.3",
+    "@adobe/cq-spa-page-model-manager": "^1.0.4",
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",
     "@angular/compiler": "~7.0.0",

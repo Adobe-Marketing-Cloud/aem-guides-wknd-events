@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ModelManager, Constants } from "@adobe/cq-spa-page-model-manager";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-app';
+  constructor() {
+    ModelManager.initialize();
+  }
 }
