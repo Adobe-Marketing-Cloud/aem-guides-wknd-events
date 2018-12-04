@@ -8,7 +8,7 @@ import {MapTo} from '@adobe/cq-angular-editable-components';
 })
 export class ImageComponent implements OnInit {
 
-  @Input() src: string
+  @Input() src: string;
   @Input() link: string;
   @Input() alt: string;
   @Input() title: string;
