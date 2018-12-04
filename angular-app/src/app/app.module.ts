@@ -4,11 +4,15 @@ import { SpaAngularEditableComponentsModule } from '@adobe/cq-angular-editable-c
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageComponent } from './components/page/page.component';
+import { TextComponent } from './components/text/text.component';
+import { ImageComponent } from './components/image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent
+    PageComponent,
+    TextComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
@@ -16,6 +20,7 @@ import { PageComponent } from './components/page/page.component';
     SpaAngularEditableComponentsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ImageComponent, TextComponent]
 })
 export class AppModule { }
