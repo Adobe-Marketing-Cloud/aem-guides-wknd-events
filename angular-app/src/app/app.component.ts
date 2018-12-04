@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ModelManager, Constants } from "@adobe/cq-spa-page-model-manager";
+import { ModelManager, Constants } from '@adobe/cq-spa-page-model-manager';
 
 @Component({
   selector: 'app-root',
