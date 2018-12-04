@@ -9,6 +9,7 @@ module.exports = {
         name: "angular-app",
         allowProxy: true,
         categories: ["wknd-events.angular"],
+        dependencies:["wknd-events.grid"],
         serializationFormat: "xml",
         jsProcessor: ["default:none","min:none"],
         assets: {
