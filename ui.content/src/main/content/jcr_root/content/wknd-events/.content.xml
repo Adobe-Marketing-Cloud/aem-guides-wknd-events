@@ -4,8 +4,6 @@
     <jcr:content
         cq:allowedTemplates="/conf/wknd-events/settings/wcm/templates/.*"
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2018-10-09T17:22:22.175-04:00"
-        cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="WKND Events"
         sling:redirect="true"
@@ -16,5 +14,5 @@
             <file/>
         </image>
     </jcr:content>
-    <react/>
+    <angular/>
 </jcr:root>
