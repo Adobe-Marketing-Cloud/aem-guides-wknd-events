@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ====================================================================== -->
+    <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
+    <!-- ====================================================================== -->
+    <parent>
+        <groupId>com.adobe.aem.guides</groupId>
+        <artifactId>aem-guides-wknd-events</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <!-- ====================================================================== -->
+    <!-- P R O J E C T  D E S C R I P T I O N                                   -->
+    <!-- ====================================================================== -->
+    <artifactId>aem-guides-wknd-events.angular</artifactId>
+    <packaging>pom</packaging>
+    <name>WKND Events - Angular App</name>
+    <description>UI Angular application code for WKND Events</description>
+
+
+    <!-- ====================================================================== -->
+    <!-- B U I L D   D E F I N I T I O N                                        -->
+    <!-- ====================================================================== -->
+    <build>
+    <plugins>
+    <plugin>
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>${frontend-maven-plugin.version}</version>
+
+        <executions>
+
+        <execution>
+            <id>install node and npm</id>
+            <goals>
+            <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+            <nodeVersion>${node.version}</nodeVersion>
+            <npmVersion>${npm.version}</npmVersion>
+        </configuration>
+        </execution>
+
+        <execution>
+            <id>npm install</id>
+            <goals>
+            <goal>npm</goal>
+            </goals>
+            <!-- Optional configuration which provides for running any npm command -->
+            <configuration>
+            <arguments>install</arguments>
+            </configuration>
+        </execution>
+
+        <execution>
+            <id>npm run build</id>
+            <goals>
+            <goal>npm</goal>
+            </goals>
+            <configuration>
+            <arguments>run build</arguments>
+            </configuration>
+        </execution>
+
+        </executions>
+    </plugin>
+    </plugins>
+</build>
+</project>
