@@ -1,0 +1,19 @@
+[
+    {
+      "context": [
+        "/content/**/*.model.json"
+      ],
+      "pathRewrite": { "^/content/wknd-events" : "/mocks/json"} ,
+      "target": "http://localhost:4200",
+      "logLevel": "debug"
+    },
+    {
+      "context": [
+        "/content/**/*.jpg",
+        "/content/**/*.jpeg"
+      ],
+      "pathRewrite": { ".*": "/mocks/assets/fpo.jpg" },
+      "target": "http://localhost:4200",
+      "logLevel": "debug"
+    }
+  ]

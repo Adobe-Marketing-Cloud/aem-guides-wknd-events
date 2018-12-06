@@ -14,7 +14,7 @@
                         jcr:lastModified="{Date}2017-12-07T15:43:22.777+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Event (React) Template Root Policy"
+                        jcr:title="WKND Event (Angular) Template Root Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/wcm/foundation/components/responsivegrid,group:WKND Events - Content]">
                         <cq:authoring jcr:primaryType="nt:unstructured">
@@ -54,7 +54,7 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         isRoot="{Boolean}true"
                         structureDepth="2"
-                        structurePatterns="(react/)(?:(?!blog)(/)?)"/>
+                        structurePatterns="(angular/)(?:(?!blog)(/)?)"/>
                 </app>
             </structure>
             <content jcr:primaryType="nt:unstructured">

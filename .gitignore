@@ -79,3 +79,6 @@ buildNumber.properties
 
 ### MacOS ###
 .DS_Store
+
+## Angular app
+/ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/angular-app
