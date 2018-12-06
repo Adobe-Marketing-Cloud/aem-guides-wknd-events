@@ -1,0 +1,7 @@
+@import "~src/styles/shared";
+
+:host-context {
+  display: block;
+
+  @include component-padding();
+}

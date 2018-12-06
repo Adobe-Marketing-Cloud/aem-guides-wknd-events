@@ -1,0 +1,104 @@
+{
+  "title": "Angular App",
+  ":type": "wknd-events/components/structure/app",
+  ":items": {},
+  ":itemsOrder": [],
+  ":hierarchyType": "page",
+  ":path": "/content/wknd-events/angular",
+  ":children": {
+    "/content/wknd-events/angular/home": {
+      "title": "Home",
+      ":type": "wknd-events/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames": {
+                "responsivegrid_1940228320": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                "text": "aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+              },
+              ":items": {
+                "text": {
+                  "text": "\u003Ch1\u003EHello from AEM SPA Editor\u003C/h1\u003E\n",
+                  "richText": true,
+                  ":type": "wknd-events/components/content/text"
+                },
+                "responsivegrid": {
+                  "columnCount": 12,
+                  "gridClassNames": "aem-Grid aem-Grid--default--8",
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                    "text_1883120120": "aem-GridColumn aem-GridColumn--default--8",
+                    "text": "aem-GridColumn aem-GridColumn--default--8"
+                  },
+                  ":items": {
+                    "text_1883120120": {
+                      "text": "\u003Cp\u003EDonec sed odio dui. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image": {
+                      "alt": "Arctic Surfing in Lofoten, Northern Norway, Europe",
+                      "title": "Majestic Rainbow",
+                      "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1543960217752.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1543960217752.jpeg",
+                      "areas": [],
+                      "uuid": "72feab95-6040-4af8-a199-a11a23e22a56",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text": {
+                      "text": "\u003Cp\u003EFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.\u003Cbr\u003E\n\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text_1883120120", "image", "text"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "responsivegrid_1940228320": {
+                  "columnCount": 12,
+                  "gridClassNames": "aem-Grid aem-Grid--default--4",
+                  "columnClassNames": {
+                    "text": "aem-GridColumn aem-GridColumn--default--4",
+                    "text_1700348105": "aem-GridColumn aem-GridColumn--default--4"
+                  },
+                  ":items": {
+                    "text": {
+                      "text": "\u003Ch4\u003ELorem Ipsum Ridiculus\u003C/h4\u003E\r\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "text_1700348105": {
+                      "text": "\u003Cp\u003ECum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\u003C/p\u003E\n\u003Cp\u003EDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.&nbsp;\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text", "text_1700348105"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                }
+              },
+              ":itemsOrder": ["text", "responsivegrid", "responsivegrid_1940228320"],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": ["responsivegrid"],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": ["root"],
+      ":hierarchyType": "page",
+      ":path": "/content/wknd-events/angular/home"
+    }
+  }
+}
