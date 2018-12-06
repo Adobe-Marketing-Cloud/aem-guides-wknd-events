@@ -1,0 +1,16 @@
+<ul *ngIf="events.length > 0" class="events">
+  <li *ngFor="let event of events" class="event">
+
+    <a [routerLink]="event.url" class="event__image-link">
+      <img [src]="event.imageUrl" class="event__image" />
+
+      <span class="event__date">
+        <div class="event__date-text">{{ event.day }}</div>
+        <div class="event__date-text--secondary">{{ event.month }}</div>
+      </span>
+    </a>
+
+    <a [routerLink]="event.url" class="event__title">{{ event.title }}</a>
+    <span class="event__description">{{ event.description }}</span>
+  </li>
+</ul>

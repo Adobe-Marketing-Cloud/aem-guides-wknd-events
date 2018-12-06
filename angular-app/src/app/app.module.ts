@@ -7,6 +7,7 @@ import { PageComponent } from './components/page/page.component';
 import { TextComponent } from './components/text/text.component';
 import { ImageComponent } from './components/image/image.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ListComponent } from './components/list/list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './components/header/header.component';
     PageComponent,
     TextComponent,
     ImageComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,6 @@ import { HeaderComponent } from './components/header/header.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents: [ImageComponent, TextComponent]
+  entryComponents: [ImageComponent, ListComponent, TextComponent]
 })
 export class AppModule { }
