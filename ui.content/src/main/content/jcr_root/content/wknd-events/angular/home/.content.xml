@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-12-06T09:55:14.068-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-events/settings/wcm/templates/wknd-events-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="wknd-events/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text
+                    jcr:created="{Date}2017-12-07T16:49:08.177+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-06T09:53:43.489-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-events/components/content/text"
+                    text="&lt;h1>WKND Events&lt;/h1>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+                <responsivegrid
+                    jcr:created="{Date}2018-12-04T16:57:56.874-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-04T16:57:56.874-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="7"/>
+                    </cq:responsive>
+                    <text_1883120120
+                        jcr:created="{Date}2018-12-04T16:58:25.244-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-06T09:55:14.065-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;h4>WKND Events running on Angular and AEM SPA Editor&lt;/h4>&#xa;&lt;p>Donec sed odio dui. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p>&#xa;&lt;p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p>&#xa;&lt;p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <image
+                        jcr:created="{Date}2018-12-04T13:46:37.563-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:26:39.891-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Events"
+                        sling:resourceType="wknd-events/components/content/image"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd-events/namroud-gorguis-253765-unsplash.jpg"
+                        isDecorative="true"
+                        titleValueFromDAM="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="8"/>
+                        </cq:responsive>
+                    </image>
+                    <text
+                        jcr:created="{Date}2018-12-04T17:00:03.896-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-04T17:00:50.757-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid>
+                <responsivegrid_1940228320
+                    jcr:created="{Date}2018-12-04T16:58:10.955-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-04T16:58:10.955-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="4"/>
+                    </cq:responsive>
+                    <text
+                        jcr:created="{Date}2018-12-04T16:58:50.454-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-04T16:59:27.217-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;h4>Lorem Ipsum Ridiculus&lt;/h4>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <text_1700348105
+                        jcr:created="{Date}2018-12-04T16:59:32.418-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-04T17:01:00.145-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/p>&#xa;&lt;p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid_1940228320>
+                <list
+                    jcr:created="{Date}2018-12-05T10:50:22.254-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-05T17:35:15.939-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-events/components/content/list"
+                    childDepth="1"
+                    linkItems="false"
+                    listFrom="static"
+                    maxItems="3"
+                    pages="[/content/wknd-events/angular/home/airplanes,/content/wknd-events/angular/home/pop-architectures,/content/wknd-events/angular/home/megalopolis]"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <airplanes/>
+    <pop-architectures/>
+    <megalopolis/>
+</jcr:root>

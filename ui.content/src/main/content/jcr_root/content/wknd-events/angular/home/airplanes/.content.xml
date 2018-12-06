@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-12-05T17:09:49.105-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-events/settings/wcm/templates/wknd-events-page-template"
+        jcr:description="Photography @Three Tokyo"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Airplanes."
+        sling:resourceType="wknd-events/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2017-12-07T16:49:10.994+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-05T16:59:14.615-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-events/components/content/image"
+                    fileReference="/content/dam/wknd-events/ablimit-ablet-639666-unsplash.jpg"/>
+                <text
+                    jcr:created="{Date}2017-12-07T16:49:08.177+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-05T17:01:54.167-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-events/components/content/text"
+                    text="&lt;h1>Airplanes.&lt;/h1>&#xa;"
+                    textIsRich="true"/>
+                <responsivegrid
+                    jcr:created="{Date}2018-12-05T17:02:08.387-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-05T17:02:08.387-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="7"/>
+                    </cq:responsive>
+                    <text
+                        jcr:created="{Date}2018-12-05T17:02:49.276-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:03:01.707-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.&lt;/p>&#xa;&lt;p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <image
+                        jcr:created="{Date}2018-12-05T17:03:06.678-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:04:40.592-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Cursus Ligula"
+                        sling:resourceType="wknd-events/components/content/image"
+                        alt="Cursus Ligula"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd-events/michael-olsen-411871-unsplash.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="false"/>
+                    <text_11756833
+                        jcr:created="{Date}2018-12-05T17:03:56.280-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:04:20.176-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <image_471764369
+                        jcr:created="{Date}2018-12-05T17:04:23.418-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:05:08.397-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Cras Elit Sollicitudin Fringilla Tortor"
+                        sling:resourceType="wknd-events/components/content/image"
+                        alt="Cras Elit Sollicitudin Fringilla Tortor"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd-events/michael-olsen-411871-unsplash.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="false"/>
+                    <image_1529134881
+                        jcr:created="{Date}2018-12-05T17:04:54.365-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:05:23.416-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Quam Vestibulum Parturient"
+                        sling:resourceType="wknd-events/components/content/image"
+                        alt="Quam Vestibulum Parturient"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd-events/faisal-latif-713461-unsplash.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="false"/>
+                    <text_530109441
+                        jcr:created="{Date}2018-12-05T17:05:29.761-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:05:41.731-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&lt;/p>&#xa;&lt;p>Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid>
+                <responsivegrid_177956760
+                    jcr:created="{Date}2018-12-05T17:02:28.540-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-05T17:02:28.540-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="4"/>
+                    </cq:responsive>
+                    <image
+                        jcr:created="{Date}2018-12-05T17:05:59.357-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:09:49.102-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Sit Justo Egestas Cras Mattis"
+                        sling:resourceType="wknd-events/components/content/image"
+                        alt="Sit Justo Egestas Cras Mattis"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd-events/james-donaldson-365418-unsplash.jpg"
+                        isDecorative="true"
+                        titleValueFromDAM="false"/>
+                    <text
+                        jcr:created="{Date}2018-12-05T17:06:04.017-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-12-05T17:08:49.988-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-events/components/content/text"
+                        text="&lt;p>Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Donec ullamcorper nulla non metus auctor fringilla.&lt;/li>&#xa;&lt;li>Cum sociis natoque penatibus et magnis.&lt;/li>&#xa;&lt;li>Dis parturient montes, nascetur ridiculus mus.&amp;nbsp;&lt;/li>&#xa;&lt;li>Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid_177956760>
+            </responsivegrid>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file.sftmp/>
+        </image>
+    </jcr:content>
+</jcr:root>

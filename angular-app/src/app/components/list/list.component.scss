@@ -1,0 +1,109 @@
+@import '~src/styles/shared';
+
+:host-context {
+    display: block;
+}
+
+$eventBoxSize: 25vw;
+$eventDateBoxSize: 4.75vw;
+
+.events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event {
+    width: 400px;
+    margin: 50px 50px;
+
+    @include media(desktop, tablet) {
+        width: $eventBoxSize;
+        margin: 35px 35px;
+    }
+}
+
+.event__image-link {
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+.event__image {
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+
+    @include media(desktop, tablet) {
+        height: $eventBoxSize;
+    }
+}
+
+.event__date {
+    $offset: -25px;
+    $size: 80px;
+
+    height: $size;
+    width: $size;
+
+    @include media(desktop, tablet) {
+        height: $eventDateBoxSize;
+        width: $eventDateBoxSize;
+    }
+
+
+    right: $offset;
+    bottom: $offset;
+
+    position: absolute;
+    background-color: $color-black;
+    color: $color-white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: $font-weight-bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    @include drop-shadow();
+}
+
+.event__date-text  {
+    color: $color-white;
+    font-size: $h2-font-size;
+    font-weight: $font-weight-semi-bold;
+    line-height: 2rem;
+}
+
+.event__date-text--secondary  {
+    color: $color-dark-gray;
+    font-size: $small-font-size;
+    font-weight: $font-weight-semi-bold;
+    text-transform: uppercase;
+    line-height: 1.75rem;
+}
+
+.event__title {
+    font-size: $lead-font-size;
+    font-weight: $font-weight-bold;
+    color: $color-black;
+    text-decoration: none;
+    display: block;
+    margin: 2rem 0 0 0;
+    line-height: 2rem;
+}
+
+.event__description {
+    font-size: $small-font-size;
+    font-weight: $font-weight-semi-bold;
+    color: $color-text;
+    line-height: 2rem;
+    margin: 0;
+}

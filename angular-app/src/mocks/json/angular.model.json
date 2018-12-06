@@ -1,0 +1,463 @@
+{
+  "title": "Angular App",
+  ":type": "wknd-events/components/structure/app",
+  ":items": {},
+  ":itemsOrder": [],
+  ":hierarchyType": "page",
+  ":path": "/content/wknd-events/angular",
+  ":children": {
+    "/content/wknd-events/angular/home": {
+      "title": "Home",
+      ":type": "wknd-events/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "columnClassNames": {
+                "responsivegrid_1940228320": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--1 aem-GridColumn--default--none",
+                "text": "aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                "list": "aem-GridColumn aem-GridColumn--default--12"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              ":items": {
+                "text": {
+                  "text": "\u003Ch1\u003EWKND Events\u003C/h1\u003E\n",
+                  "richText": true,
+                  ":type": "wknd-events/components/content/text"
+                },
+                "responsivegrid": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                    "text_1883120120": "aem-GridColumn aem-GridColumn--default--7",
+                    "text": "aem-GridColumn aem-GridColumn--default--7"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--7",
+                  ":items": {
+                    "text_1883120120": {
+                      "text": "\u003Ch4\u003EWKND Events running on Angular and AEM SPA Editor\u003C/h4\u003E\n\u003Cp\u003EDonec sed odio dui. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.\u003C/p\u003E\n\u003Cp\u003EVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\u003C/p\u003E\n\u003Cp\u003EMaecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image": {
+                      "title": "WKND Events",
+                      "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1544048799891.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1544048799891.jpeg",
+                      "areas": [],
+                      "uuid": "49639a91-7e8c-48e5-8f05-a1c795c606c7",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text": {
+                      "text": "\u003Cp\u003EFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.\u003Cbr\u003E\n\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text_1883120120", "image", "text"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "responsivegrid_1940228320": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "text": "aem-GridColumn aem-GridColumn--default--4",
+                    "text_1700348105": "aem-GridColumn aem-GridColumn--default--4"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--4",
+                  ":items": {
+                    "text": {
+                      "text": "\u003Ch4\u003ELorem Ipsum Ridiculus\u003C/h4\u003E\r\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "text_1700348105": {
+                      "text": "\u003Cp\u003ECum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\u003C/p\u003E\n\u003Cp\u003EDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.&nbsp;\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text", "text_1700348105"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "list": {
+                  "dateFormatString": "yyyy-MM-dd",
+                  "items": [{
+                    "url": "/content/wknd-events/angular/home/airplanes.html",
+                    "path": "/content/wknd-events/angular/home/airplanes",
+                    "description": "Photography @Three Tokyo",
+                    "lastModified": 1544047789105,
+                    "title": "Airplanes."
+                  }, {
+                    "url": "/content/wknd-events/angular/home/pop-architectures.html",
+                    "path": "/content/wknd-events/angular/home/pop-architectures",
+                    "description": "Art @The Foundation Tokyo",
+                    "lastModified": 1544048072363,
+                    "title": "Pop Architectures"
+                  }, {
+                    "url": "/content/wknd-events/angular/home/megalopolis.html",
+                    "path": "/content/wknd-events/angular/home/megalopolis",
+                    "description": "Photography @The Foundation Tokyo",
+                    "lastModified": 1544048466282,
+                    "title": "Megalopolis"
+                  }],
+                  "showDescription": false,
+                  "showModificationDate": false,
+                  "linkItems": false,
+                  ":type": "wknd-events/components/content/list"
+                }
+              },
+              ":itemsOrder": ["text", "responsivegrid", "responsivegrid_1940228320", "list"],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": ["responsivegrid"],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": ["root"],
+      ":hierarchyType": "page",
+      ":path": "/content/wknd-events/angular/home"
+    },
+    "/content/wknd-events/angular/home/airplanes": {
+      "title": "Airplanes.",
+      ":type": "wknd-events/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "columnClassNames": {
+                "image": "aem-GridColumn aem-GridColumn--default--12",
+                "responsivegrid_177956760": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--1 aem-GridColumn--default--none",
+                "text": "aem-GridColumn aem-GridColumn--default--12",
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              ":items": {
+                "image": {
+                  "src": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1544047270668.jpeg",
+                  "srcUriTemplate": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1544047270668.jpeg",
+                  "areas": [],
+                  "uuid": "23400595-be68-41fe-93d8-dd9c4a4d4c93",
+                  "widths": [],
+                  "lazyEnabled": false,
+                  ":type": "wknd-events/components/content/image"
+                },
+                "text": {
+                  "text": "\u003Ch1\u003EAirplanes.\u003C/h1\u003E\n",
+                  "richText": true,
+                  ":type": "wknd-events/components/content/text"
+                },
+                "responsivegrid": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "text_530109441": "aem-GridColumn aem-GridColumn--default--7",
+                    "image": "aem-GridColumn aem-GridColumn--default--7",
+                    "image_471764369": "aem-GridColumn aem-GridColumn--default--7",
+                    "text": "aem-GridColumn aem-GridColumn--default--7",
+                    "image_1529134881": "aem-GridColumn aem-GridColumn--default--7",
+                    "text_11756833": "aem-GridColumn aem-GridColumn--default--7"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--7",
+                  ":items": {
+                    "text": {
+                      "text": "\u003Cp\u003EVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.\u003C/p\u003E\n\u003Cp\u003ENullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image": {
+                      "alt": "Cursus Ligula",
+                      "title": "Cursus Ligula",
+                      "src": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1544047480592.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1544047480592.jpeg",
+                      "areas": [],
+                      "uuid": "a95f30ac-b798-4897-87ed-5b56059ddf58",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text_11756833": {
+                      "text": "\u003Cp\u003EDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image_471764369": {
+                      "alt": "Cras Elit Sollicitudin Fringilla Tortor",
+                      "title": "Cras Elit Sollicitudin Fringilla Tortor",
+                      "src": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid/image_471764369.coreimg.jpeg/1544047508397.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid/image_471764369.coreimg{.width}.jpeg/1544047508397.jpeg",
+                      "areas": [],
+                      "uuid": "a95f30ac-b798-4897-87ed-5b56059ddf58",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "image_1529134881": {
+                      "alt": "Quam Vestibulum Parturient",
+                      "title": "Quam Vestibulum Parturient",
+                      "src": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid/image_1529134881.coreimg.jpeg/1544047523416.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid/image_1529134881.coreimg{.width}.jpeg/1544047523416.jpeg",
+                      "areas": [],
+                      "uuid": "98c2cedf-599a-4948-b1e4-c18da208f2c9",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text_530109441": {
+                      "text": "\u003Cp\u003EAenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.\u003C/p\u003E\n\u003Cp\u003EAenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text", "image", "text_11756833", "image_471764369", "image_1529134881", "text_530109441"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "responsivegrid_177956760": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--4",
+                    "text": "aem-GridColumn aem-GridColumn--default--4"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--4",
+                  ":items": {
+                    "image": {
+                      "title": "Sit Justo Egestas Cras Mattis",
+                      "src": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid_177956760/image.coreimg.jpeg/1544047789102.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/airplanes/_jcr_content/root/responsivegrid/responsivegrid_177956760/image.coreimg{.width}.jpeg/1544047789102.jpeg",
+                      "areas": [],
+                      "uuid": "da769283-5534-425f-839a-b5f5b45a7ddf",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text": {
+                      "text": "\u003Cp\u003EVestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003EDonec ullamcorper nulla non metus auctor fringilla.\u003C/li\u003E\n\u003Cli\u003ECum sociis natoque penatibus et magnis.\u003C/li\u003E\n\u003Cli\u003EDis parturient montes, nascetur ridiculus mus.&nbsp;\u003C/li\u003E\n\u003Cli\u003ENullam id dolor id nibh ultricies vehicula ut id elit.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003EVestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["image", "text"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                }
+              },
+              ":itemsOrder": ["image", "text", "responsivegrid", "responsivegrid_177956760"],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": ["responsivegrid"],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": ["root"],
+      ":hierarchyType": "page",
+      ":path": "/content/wknd-events/angular/home/airplanes"
+    },
+    "/content/wknd-events/angular/home/pop-architectures": {
+      "title": "Pop Architectures",
+      ":type": "wknd-events/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "columnClassNames": {
+                "image": "aem-GridColumn aem-GridColumn--default--12",
+                "responsivegrid_35437656": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--1 aem-GridColumn--default--none",
+                "text": "aem-GridColumn aem-GridColumn--default--12",
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              ":items": {
+                "image": {
+                  "src": "/content/wknd-events/angular/home/pop-architectures/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1544047876391.jpeg",
+                  "srcUriTemplate": "/content/wknd-events/angular/home/pop-architectures/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1544047876391.jpeg",
+                  "areas": [],
+                  "uuid": "6246d2dd-3ec5-42ab-bf2b-4776d839c885",
+                  "widths": [],
+                  "lazyEnabled": false,
+                  ":type": "wknd-events/components/content/image"
+                },
+                "text": {
+                  "text": "\u003Ch1\u003EPop Architecture\u003C/h1\u003E\n",
+                  "richText": true,
+                  ":type": "wknd-events/components/content/text"
+                },
+                "responsivegrid": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--7",
+                    "text": "aem-GridColumn aem-GridColumn--default--7",
+                    "text_1468329425": "aem-GridColumn aem-GridColumn--default--7"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--7",
+                  ":items": {
+                    "text": {
+                      "text": "\u003Cp\u003ECurabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum.\u003C/p\u003E\n\u003Cp\u003ECras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image": {
+                      "title": "Vestibulum Fusce Adipiscing Commodo",
+                      "src": "/content/wknd-events/angular/home/pop-architectures/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1544047983663.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/pop-architectures/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1544047983663.jpeg",
+                      "areas": [],
+                      "uuid": "a06fa764-8951-40df-9c0a-fd4eaf6e0488",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text_1468329425": {
+                      "text": "\u003Cp\u003EMaecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.\u003C/p\u003E\n\u003Cblockquote\u003ENullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor.\u003C/blockquote\u003E\n\u003Cp\u003EAenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text", "image", "text_1468329425"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "responsivegrid_35437656": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "text": "aem-GridColumn aem-GridColumn--default--4"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--4",
+                  ":items": {
+                    "text": {
+                      "text": "\u003Ch3\u003EVivamus sagittis&nbsp;\u003C/h3\u003E\n\u003Cp\u003ECurabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor.\u003C/p\u003E\n\u003Cp\u003EPraesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                }
+              },
+              ":itemsOrder": ["image", "text", "responsivegrid", "responsivegrid_35437656"],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": ["responsivegrid"],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": ["root"],
+      ":hierarchyType": "page",
+      ":path": "/content/wknd-events/angular/home/pop-architectures"
+    },
+    "/content/wknd-events/angular/home/megalopolis": {
+      "title": "Megalopolis",
+      ":type": "wknd-events/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "columnClassNames": {
+                "image": "aem-GridColumn aem-GridColumn--default--12",
+                "responsivegrid_215057801": "aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--1 aem-GridColumn--default--none",
+                "text": "aem-GridColumn aem-GridColumn--default--12",
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              ":items": {
+                "image": {
+                  "src": "/content/wknd-events/angular/home/megalopolis/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1544048214154.jpeg",
+                  "srcUriTemplate": "/content/wknd-events/angular/home/megalopolis/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1544048214154.jpeg",
+                  "areas": [],
+                  "uuid": "79823ccd-ea8c-40de-a983-ef9398d623d4",
+                  "widths": [],
+                  "lazyEnabled": false,
+                  ":type": "wknd-events/components/content/image"
+                },
+                "text": {
+                  "text": "\u003Ch1\u003EMegalopolis\u003C/h1\u003E\n",
+                  "richText": true,
+                  ":type": "wknd-events/components/content/text"
+                },
+                "responsivegrid": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "text": "aem-GridColumn aem-GridColumn--default--4"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--4",
+                  ":items": {
+                    "text": {
+                      "text": "\u003Cp\u003EPraesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\u003C/p\u003E\n\u003Cp\u003EVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                },
+                "responsivegrid_215057801": {
+                  "columnCount": 12,
+                  "columnClassNames": {
+                    "image": "aem-GridColumn aem-GridColumn--default--7",
+                    "text": "aem-GridColumn aem-GridColumn--default--7",
+                    "text_1427392503": "aem-GridColumn aem-GridColumn--default--7"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--default--7",
+                  ":items": {
+                    "text": {
+                      "text": "\u003Cp\u003EMaecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\u003C/p\u003E\n\u003Cp\u003ENullam id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    },
+                    "image": {
+                      "title": "Quam Egestas Vulputate Fringilla",
+                      "src": "/content/wknd-events/angular/home/megalopolis/_jcr_content/root/responsivegrid/responsivegrid_215057801/image.coreimg.jpeg/1544048499232.jpeg",
+                      "srcUriTemplate": "/content/wknd-events/angular/home/megalopolis/_jcr_content/root/responsivegrid/responsivegrid_215057801/image.coreimg{.width}.jpeg/1544048499232.jpeg",
+                      "areas": [],
+                      "uuid": "43263e84-4a92-40c3-a1f5-0a5137db02ef",
+                      "widths": [],
+                      "lazyEnabled": false,
+                      ":type": "wknd-events/components/content/image"
+                    },
+                    "text_1427392503": {
+                      "text": "\u003Cp\u003EInteger posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper.\u003C/p\u003E\n\u003Cp\u003EDonec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\u003C/p\u003E\n\u003Cblockquote\u003EDonec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.\u003C/blockquote\u003E\n\u003Cp\u003EInteger posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.\u003C/p\u003E\n",
+                      "richText": true,
+                      ":type": "wknd-events/components/content/text"
+                    }
+                  },
+                  ":itemsOrder": ["text", "image", "text_1427392503"],
+                  ":type": "wcm/foundation/components/responsivegrid"
+                }
+              },
+              ":itemsOrder": ["image", "text", "responsivegrid", "responsivegrid_215057801"],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": ["responsivegrid"],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": ["root"],
+      ":hierarchyType": "page",
+      ":path": "/content/wknd-events/angular/home/megalopolis"
+    }
+  }
+}

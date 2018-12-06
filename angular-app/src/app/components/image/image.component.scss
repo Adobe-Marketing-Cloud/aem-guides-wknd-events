@@ -1,0 +1,33 @@
+@import '~src/styles/shared';
+
+:host-context {
+  display: block;
+  @include component-padding();
+}
+
+.image {
+  border: 0;
+  margin: 2rem 0;
+  padding: 0;
+  vertical-align: baseline; 
+  width: 100%;
+}
+
+.caption {
+  background-color: $color-black;
+  color: $color-white;
+  height: 3em;
+  padding: 20px 10px;
+  position: relative;
+  top: -50px;
+
+  @include drop-shadow();
+
+  @include media(tablet) {
+      padding: 25px 15px;
+  }
+
+  @include media(desktop) {
+      padding: 30px 20px;
+  }
+}

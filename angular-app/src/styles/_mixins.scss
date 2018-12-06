@@ -1,0 +1,38 @@
+@import "variables";
+
+@mixin media($types...) {
+  @each $type in $types {
+
+    @if $type == tablet {
+      @media only screen and (min-width: $small-screen + 1) and (max-width: $medium-screen) {
+        @content;
+      }
+    }
+
+    @if $type == desktop {
+      @media only screen and (min-width: $medium-screen + 1) {
+        @content;
+      }
+    }
+
+    @if $type == mobile {
+      @media only screen and (min-width: $mobile-screen + 1) and (max-width: $small-screen) {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin content-area () {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: $gutter-padding;
+}
+
+@mixin component-padding() {
+  padding: 0 $gutter-padding !important;
+}
+
+@mixin drop-shadow () {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
