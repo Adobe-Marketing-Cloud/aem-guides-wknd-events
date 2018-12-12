@@ -6,7 +6,7 @@ View the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tuto
 
 ## The Tutorials
 
-There are two parallel versions of the Getting started with AEM SPA Editor tutorial, building on a fictional WKND Events application; one that builds the integration using React and the Angular. Other than the JavaScript frameworks used, both tutorials follow the same flow and build out the same capabilities.
+There are two parallel versions of the Getting started with AEM SPA Editor tutorial, building on a fictional WKND Events application; one that builds the integration using React and the other with Angular. Other than the JavaScript frameworks used, both tutorials follow the same flow and build out the same capabilities.
 
 Note the number and order of chapters in each tutorial varies based on the logical development flow imposed by the relevant framework.
 
