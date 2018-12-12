@@ -4,52 +4,36 @@ This is the code companion for a tutorial that walks through the process of sett
 
 View the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
 
-## Modules
+## The Tutorials
 
-The main parts of the template are:
+There are two parallel versions of the Getting started with AEM SPA Editor tutorial, building on a fictional WKND Events application; one that builds the integration using React and the other with Angular. Other than the JavaScript frameworks used, both tutorials follow the same flow and build out the same capabilities.
 
-* react-app: a webpack project for the React application. The App is built and deployed to AEM in the form of a client library via the ui.apps module. see the README beneath the react-app for more details.
-* core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
-* ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
-* ui.content: contains sample content using the components from the ui.apps
+Note the number and order of chapters in each tutorial varies based on the logical development flow imposed by the relevant framework.
 
-## How to build
+## WKND Events - React
 
-To build all the modules run in the project root directory the following command with Maven 3:
+[WKND Events for React and AEM SPA Editor - Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react.html)
 
-    mvn clean install
+### Solution Branches on GitHub
 
-If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
+* [Chapter 0](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-0)
+* [Chapter 1](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-1)
+* [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-2)
+* [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
+* [Chapter 4](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-4) (Latest code with tutorial companion coming soon...)
 
-    mvn clean install -PautoInstallPackage
+## WKND Events - Angular
 
-Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe pubic repo with
+[WKND Events for Angular and AEM SPA Editor - Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/angular.html)
 
-    mvn clean install -PautoInstallPackage -Padobe-public
-    
-Or to deploy it to a publish instance, run
+### Solution Branches on GitHub
 
-    mvn clean install -PautoInstallPackagePublish
-    
-Or alternatively
-
-    mvn clean install -PautoInstallPackage -Daem.port=4503
-
-Or to deploy only the bundle to the author, run
-
-    mvn clean install -PautoInstallBundle
-
-
-## Maven settings
-
-If you experience the following error when building:
-
-```
-[ERROR] Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 
-```
-
-Use `mvn clean install -PautoInstallPackage -Padobe-public` command. 
-
-Alternatively you can add the `adobe-public` repository to your Maven settings by referring to:
-
-    http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+* [Chapter 0](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-0)
+* [Chapter 1](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-1)
+* [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-2)
+* [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-3)
+* [Chapter 4](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-4)
+* [Chapter 5](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-5)
+* [Chapter 6](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-6)
+* [Chapter 7](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-7)
+* [Chapter 8](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-8)
