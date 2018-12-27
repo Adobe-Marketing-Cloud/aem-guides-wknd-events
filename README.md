@@ -37,3 +37,14 @@ Note the number and order of chapters in each tutorial varies based on the logic
 * [Chapter 6](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-6)
 * [Chapter 7](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-7)
 * [Chapter 8](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-8)
+
+## Troubleshooting
+
+Having an issue? These troubleshooting tips might help:
+
+1. Verify that environment is AEM 6.4 + SP2
+2. Check to see if any bundles are in an installed state [http://localhost:4502/system/console](http://localhost:4502/system/console)
+3. Clear the browser cache/history or start a new browser session
+4. Manually invalidate AEM client libraries to ensure the latest code is being loaded: http://localhost:4502/libs/granite/ui/content/dumplibs.rebuild.html
+
+Still not working? Check out the [closed issues](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues?q=is%3Aissue+is%3Aclosed) or [create a new issue](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/issues). 
