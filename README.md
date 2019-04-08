@@ -2,8 +2,6 @@
 
 This is the code companion for a tutorial that walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
 
-View the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
-
 ## Modules
 
 The main parts of the template are:
@@ -22,10 +20,6 @@ To build all the modules run in the project root directory the following command
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
     mvn clean install -PautoInstallPackage
-
-Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe pubic repo with
-
-    mvn clean install -PautoInstallPackage -Padobe-public
     
 Or to deploy it to a publish instance, run
 
@@ -39,17 +33,25 @@ Or to deploy only the bundle to the author, run
 
     mvn clean install -PautoInstallBundle
 
+## Testing
+
+There are three levels of testing contained in the project:
+
+* unit test in core: this show-cases classic unit testing of the code contained in the bundle. To test, execute:
+
+    mvn clean test
+
+* server-side integration tests: this allows to run unit-like tests in the AEM-environment, ie on the AEM server. To test, execute:
+
+    mvn clean verify -PintegrationTests
+
+* client-side Hobbes.js tests: JavaScript-based browser-side tests that verify browser-side behavior. To test:
+
+    in the browser, open the page in 'Developer mode', open the left panel and switch to the 'Tests' tab and find the generated 'MyName Tests' and run them.
+
 
 ## Maven settings
 
-If you experience the following error when building:
-
-```
-[ERROR] Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 
-```
-
-Use `mvn clean install -PautoInstallPackage -Padobe-public` command. 
-
-Alternatively you can add the `adobe-public` repository to your Maven settings by referring to:
+The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html

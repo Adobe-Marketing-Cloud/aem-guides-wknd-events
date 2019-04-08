@@ -8,7 +8,6 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm run build](#npm-run-build)
-  - [npm run styleguide](#npm-run-style-guide)
   
 
 ## Available Scripts
@@ -17,41 +16,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-There are two possible ways to run the app in development mode. 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**Proxy** the JSON model from AEM:
-
-1. Update `.env.development`:
-
-    ```
-    #Request the JSON from AEM at http://localhost:4502
-    REACT_APP_PAGE_MODEL_PATH=/content/wknd-events/react.model.json
-    ```
-2. Start the development server:
-
-    ```
-    $ npm start
-    ```
-
-3. Open a browser window and login to AEM at http://localhost:4502
-4. Open a new tab in the same browser and navigate to [http://localhost:3000/content/wknd-events/react/home.html](http://localhost:3000/content/wknd-events/react/home.html)
-
-**Mock** the JSON model locally:
-
-1. Update `.env.development`:
-
-    ```
-    # Request the JSON from Mock JSON
-    #REACT_APP_PAGE_MODEL_PATH=mock.model.json
-    ```
-2. Start the development server:
-
-    ```
-    $ npm start
-    ```
-4. Open the browser and navigate to [http://localhost:3000/content/wknd-events/react/home.html](http://localhost:3000/content/wknd-events/react/home.html)
-
-In both setups the page will reload if you make edits.<br>
+The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### `npm run build`
@@ -61,12 +29,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
-
-### `npm run styleguide`
-
-Runs the app with [React Styleguidist](https://react-styleguidist.js.org/)
-Open [http://localhost:6060](http://localhost:6060) to view it in the browser.
-
-See all of the components in isolation with various states.
-
 

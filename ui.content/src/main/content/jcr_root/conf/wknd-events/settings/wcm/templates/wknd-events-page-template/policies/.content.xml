@@ -22,10 +22,6 @@
                                 cq:policy="wknd-events/components/content/text/policy_1539029830437"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
-                            <gmap
-                                cq:policy="wknd-events/components/content/gmap/default"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>
                     </components>
                 </wknd-events>

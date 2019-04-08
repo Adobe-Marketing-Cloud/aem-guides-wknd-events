@@ -58,17 +58,6 @@
                 </app>
             </structure>
             <content jcr:primaryType="nt:unstructured">
-                <gmap jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:lastModified="{Date}2018-10-08T16:17:33.502-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Events Google Map"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        apiKey="YOUR_API_KEY_HERE">
-                          <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </default>
-                </gmap>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1539029830437
                         jcr:lastModified="{Date}2018-10-08T16:17:33.502-04:00"

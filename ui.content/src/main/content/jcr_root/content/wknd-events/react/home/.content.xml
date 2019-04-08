@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-10-15T22:48:48.367-04:00"
+        cq:lastModified="{Date}2018-10-10T09:56:21.029-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd-events/settings/wcm/templates/wknd-events-page-template"
         jcr:primaryType="cq:PageContent"
@@ -18,96 +18,22 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    jcr:created="{Date}2018-10-12T13:49:28.574-04:00"
+                <text
+                    jcr:created="{Date}2017-12-07T16:49:08.177+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-10-12T13:49:28.574-04:00"
+                    jcr:lastModified="{Date}2018-10-10T09:56:21.026-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            width="8"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                    </cq:responsive>
-                    <text
-                        jcr:created="{Date}2018-10-14T10:54:29.616-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-10-14T10:54:40.031-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd-events/components/content/text"
-                        text="&lt;h1>Home&lt;/h1>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <list
-                        jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd-events/components/content/list"
-                        childDepth="1"
-                        linkItems="false"
-                        listFrom="children"
-                        parentPage="/content/wknd-events/react/home"
-                        showDescription="false"
-                        showModificationDate="false"
-                        sortOrder="asc"
-                        tagsMatch="any"/>
-                </responsivegrid>
-                <responsivegrid_399366997
-                    jcr:created="{Date}2018-10-12T13:49:41.338-04:00"
+                    sling:resourceType="wknd-events/components/content/text"
+                    textIsRich="true"/>
+                <image
+                    jcr:created="{Date}2017-12-07T16:49:10.994+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-10-12T13:49:41.338-04:00"
+                    jcr:lastModified="{Date}2017-12-07T16:49:10.994+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            width="4"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                    </cq:responsive>
-                    <text
-                        jcr:created="{Date}2018-10-12T14:00:04.797-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-10-12T14:00:31.227-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd-events/components/content/text"
-                        text="&lt;h4>Sidebar heading&lt;/h4>&#xa;"
-                        textIsRich="true"/>
-                    <text_1183005514
-                        jcr:created="{Date}2018-10-12T14:31:40.491-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-10-12T14:31:45.665-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd-events/components/content/text"
-                        text="&lt;p>Morbi euismod magna ac lorem rutrum elementum.&lt;/p>&#xa;"
-                        textIsRich="true"/>
-                </responsivegrid_399366997>
-                <gmap
-                    jcr:created="{Date}2018-10-15T22:48:48.365-04:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-10-15T22:48:48.365-04:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-events/components/content/gmap"/>
+                    sling:resourceType="wknd-events/components/content/image"/>
             </responsivegrid>
         </root>
     </jcr:content>
-    <first-article/>
-    <second-article/>
 </jcr:root>
