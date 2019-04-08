@@ -6,11 +6,15 @@ import App from './App';
 import "./components/MappedComponents";
 import ScrollToTop from './utils/RouteHelper';
 import {BrowserRouter} from 'react-router-dom';
+import { Redirect, Route } from 'react-router';
 
 function render(model) {
     ReactDOM.render((
         <BrowserRouter>
             <ScrollToTop>
+            <Route path="/content/wknd-events/react.html" render={() => (
+                <Redirect to="/content/wknd-events/react/home.html"/>
+            )}/>
                 <App cqChildren={ model[Constants.CHILDREN_PROP] } cqItems={ model[Constants.ITEMS_PROP] } cqItemsOrder={ model[Constants.ITEMS_ORDER_PROP] }
                     cqPath={ ModelManager.rootPath } locationPathname={ window.location.pathname }/>
             </ScrollToTop>
