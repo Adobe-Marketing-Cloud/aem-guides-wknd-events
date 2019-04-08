@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
+import { Page, withModel } from '@adobe/cq-react-editable-components';
 
 // This component is the application entry point
 class App extends Page {
@@ -10,10 +10,8 @@ class App extends Page {
                 <header className="App-header">
                     <h1>Welcome to AEM + React</h1>
                 </header>
-                <EditorContext.Provider value={ Utils.isInEditor() }>
-                    { this.childComponents }
-                    { this.childPages }
-                </EditorContext.Provider>
+                { this.childComponents }
+                { this.childPages }
             </div>
           );
     }
