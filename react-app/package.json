@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adobe/cq-react-editable-components": "^1.0.3",
+    "@adobe/cq-react-editable-components": "^1.1.0",
     "@adobe/cq-spa-component-mapping": "^1.0.3",
-    "@adobe/cq-spa-page-model-manager": "^1.0.1",
+    "@adobe/cq-spa-page-model-manager": "^1.0.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-fast-compare": "^2.0.2",
-    "react-scripts": "2.0.4"
+    "react-fast-compare": "^2.0.4",
+    "react-scripts": "^2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,7 +28,8 @@
   ],
   "devDependencies": {
     "aem-clientlib-generator": "^1.4.1",
-    "ajv": "^6.5.4",
-    "clone": "^2.1.2"
+    "ajv": "^6.10.0",
+    "clone": "^2.1.2",
+    "typescript": "^3.4.2"
   }
 }
