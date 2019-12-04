@@ -7,6 +7,8 @@ import "./components/MappedComponents";
 import ScrollToTop from './utils/RouteHelper';
 import {BrowserRouter} from 'react-router-dom';
 import { Redirect, Route } from 'react-router';
+import isPublishInstance from './utils/is-publish-instance';
+import { register } from './utils/service-worker';
 
 function render(model) {
     ReactDOM.render((
@@ -22,4 +24,9 @@ function render(model) {
         document.getElementById('root'));
 }
 
-ModelManager.initialize({ path: process.env.REACT_APP_PAGE_MODEL_PATH }).then(render);
+ModelManager.initialize().then(render);
+
+// Register service worker if on publish instance (caching is undesirable during development)
+if (isPublishInstance()) {
+  register();
+}
