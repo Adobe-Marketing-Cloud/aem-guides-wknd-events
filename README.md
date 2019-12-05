@@ -6,7 +6,7 @@ This is the code companion for a tutorial that walks through the process of sett
 
 The main parts of the template are:
 
-* react-app: a webpack project for the React application. The App is built and deployed to AEM in the form of a client library via the ui.apps module. see the README beneath the react-app for more details.
+* angular-app: a webpack project for the Angular application. The App is built and deployed to AEM in the form of a client library via the ui.apps module. see the README beneath the angular-app for more details.
 * core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
 * ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
 * ui.content: contains sample content using the components from the ui.apps
