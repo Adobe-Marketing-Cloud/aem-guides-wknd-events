@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && node ./service-worker/generate.js && clientlib --verbose",
+    "build": "react-scripts build && node ./utils/service-worker/generate.js && clientlib --verbose",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "styleguide": "styleguidist server",

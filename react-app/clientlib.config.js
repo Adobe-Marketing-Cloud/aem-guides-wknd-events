@@ -1,5 +1,5 @@
-const fs = require('fs');
 const path = require('path');
+const getEntrypoints = require('./utils/entrypoints');
 
 const BUILD_DIR = path.join(__dirname, 'build');
 const CLIENTLIB_DIR = path.join(
@@ -14,17 +14,9 @@ const CLIENTLIB_DIR = path.join(
   'wknd-events',
   'clientlibs'
 );
+const ASSET_MANIFEST_PATH = path.join(BUILD_DIR, 'asset-manifest.json');
 
-// Read entrypoint files and order from `asset-manifest.json`
-const assetManifest = fs.readFileSync(
-  path.join(BUILD_DIR, 'asset-manifest.json'),
-  { encoding: 'utf8' }
-);
-const { entrypoints } = JSON.parse(assetManifest);
-const jsEntrypoints = entrypoints.filter(fileName => fileName.endsWith('.js'));
-const cssEntrypoints = entrypoints.filter(fileName =>
-  fileName.endsWith('.css')
-);
+const entrypoints = getEntrypoints(ASSET_MANIFEST_PATH);
 
 // Config for `aem-clientlib-generator`
 module.exports = {
@@ -42,15 +34,15 @@ module.exports = {
       // directories (in the order they are in the entrypoints arrays). They
       // will be bundled by AEM and requested from the HTML. The remaining
       // chunks (placed in `resources`) will be loaded dynamically
-      js: jsEntrypoints,
-      css: cssEntrypoints,
+      js: entrypoints.filter(fileName => fileName.endsWith('.js')),
+      css: entrypoints.filter(fileName => fileName.endsWith('.css')),
 
       // Copy all other files into the `resources` ClientLib directory
       resources: {
         cwd: '.',
         flatten: false,
         files: ['**/*.*'],
-        ignore: [...jsEntrypoints, ...cssEntrypoints]
+        ignore: entrypoints
       }
     }
   }
