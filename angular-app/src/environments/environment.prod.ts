@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  aemRoot: '/',
+  production: true,
+  publicUrl: '/etc.clientlibs/wknd-events/clientlibs/angular-app/resources'
 };

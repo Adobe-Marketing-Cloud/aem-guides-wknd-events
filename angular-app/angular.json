@@ -24,7 +24,10 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/logo192.png",
+              "src/logo512.png",
+              "src/manifest.json"
             ],
             "styles": [
               "src/styles.scss"
@@ -36,7 +39,10 @@
               "assets": [
                 "src/favicon.ico",
                 "src/assets",
-                "src/mocks"
+                "src/mocks",
+                "src/logo192.png",
+                "src/logo512.png",
+                "src/manifest.json"
               ]
             },
             "production": {
@@ -95,7 +101,10 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/logo192.png",
+              "src/logo512.png",
+              "src/manifest.json"
             ]
           }
         },
