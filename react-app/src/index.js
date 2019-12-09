@@ -8,7 +8,7 @@ import ScrollToTop from './utils/RouteHelper';
 import {BrowserRouter} from 'react-router-dom';
 import { Redirect, Route } from 'react-router';
 import isPublishInstance from './utils/is-publish-instance';
-import { register } from './utils/register-service-worker';
+import { register } from 'register-service-worker';
 
 function render(model) {
     ReactDOM.render((
@@ -20,7 +20,7 @@ function render(model) {
                 <App cqChildren={ model[Constants.CHILDREN_PROP] } cqItems={ model[Constants.ITEMS_PROP] } cqItemsOrder={ model[Constants.ITEMS_ORDER_PROP] }
                     cqPath={ ModelManager.rootPath } locationPathname={ window.location.pathname }/>
             </ScrollToTop>
-        </BrowserRouter>), 
+        </BrowserRouter>),
         document.getElementById('root'));
 }
 
@@ -28,5 +28,7 @@ ModelManager.initialize().then(render);
 
 // Register service worker if on publish instance (caching is undesirable during development)
 if (isPublishInstance()) {
-  register();
+  register(`${process.env.PUBLIC_URL}/service-worker.js`, {
+    registrationOptions: { scope: process.env.REACT_APP_AEM_ROOT }
+  });
 }
