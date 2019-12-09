@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 import isPublishInstance from './utils/is-publish-instance';
-import { register } from './utils/register-service-worker';
+import { register } from 'register-service-worker';
 
 if (environment.production) {
   enableProdMode();
@@ -15,5 +15,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 // Register service worker if on publish instance (caching is undesirable during development)
 if (isPublishInstance()) {
-  register();
+  register(`${environment.publicUrl}/service-worker.js`, {
+    registrationOptions: { scope: environment.aemRoot }
+  });
 }
