@@ -32,9 +32,7 @@ module.exports = {
     serializationFormat: 'xml',
     assets: {
       // Copy entrypoint scripts and stylesheets into the respective ClientLib
-      // directories (in the order they are in the entrypoints arrays). They
-      // will be bundled by AEM and requested from the HTML. The remaining
-      // chunks (placed in `resources`) will be loaded dynamically
+      // directories (in the order they are in the entrypoints arrays)
       js: jsEntrypoints,
       css: cssEntrypoints,
 
