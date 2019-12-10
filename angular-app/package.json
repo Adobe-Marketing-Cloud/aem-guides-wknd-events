@@ -9,7 +9,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "homepage": "/etc.clientlibs/wknd-events/clientlibs/angular-app/resources",
   "private": true,
   "dependencies": {
     "@adobe/cq-angular-editable-components": "^1.2.0",
