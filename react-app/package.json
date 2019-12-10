@@ -29,7 +29,6 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
-  "homepage": "/etc.clientlibs/wknd-events/clientlibs/react-app/resources",
   "proxy": "http://localhost:4502",
   "eslintConfig": {
     "extends": "react-app"
