@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod && node ./utils/service-worker/generate.js && clientlib --verbose",
+    "build": "ng build --prod && node ./utils/service-worker/generate.js && clientlib",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
