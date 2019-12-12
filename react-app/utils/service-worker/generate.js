@@ -1,4 +1,3 @@
-const fs = require('fs');
 const path = require('path');
 const { injectManifest } = require('workbox-build');
 const getEntrypoints = require('../entrypoints');
@@ -13,26 +12,10 @@ const APP_ROOT = '/content/wknd-events/react';
 const APP_START_PAGE = `${APP_ROOT}/home.html`;
 
 /**
- * Deletes a previously generated service worker file (if it exists)
- *
- * @param {string} swPath: Path to the existing service worker file
- */
-const removeExistingWorker = swPath => {
-  if (fs.existsSync(swPath)) {
-    fs.unlinkSync(swPath);
-    console.log(`Deleted existing service worker at ${swPath}`);
-  } else {
-    console.log(`No existing service worker at ${swPath}`);
-  }
-};
-
-/**
  * Generates a new service worker from the provided template using the Workbox
  * library
  */
-const main = async () => {
-  removeExistingWorker(SW_PATH);
-
+async function generate() {
   await injectManifest({
     swSrc: SW_TEMPLATE_PATH,
     swDest: SW_PATH,
@@ -56,6 +39,6 @@ const main = async () => {
     ]
   });
   console.log(`Generated custom service worker at ${SW_PATH}`);
-};
+}
 
-main();
+generate();
