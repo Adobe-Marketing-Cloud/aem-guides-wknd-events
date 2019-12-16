@@ -1,0 +1,22 @@
+@import '../../styles/shared';
+
+.offline-banner-outer {
+  margin: 0;
+  background: $color-black;
+}
+
+.offline-banner-inner {
+  @include content-area();
+}
+
+.offline-banner-content {
+  @include component-padding();
+  margin: 0;
+  color: $color-white;
+  font-family: $font-sans;
+  font-size: $base-font-size;
+}
+
+.offline-banner-title {
+  font-weight: $font-weight-bold;
+}

@@ -10,7 +10,7 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <!-- 
+    <!--
       Import Responsive grid CSS from AEM
     -->
     <link rel="stylesheet" href="/etc.clientlibs/wknd-events/clientlibs/responsive-grid.css" type="text/css">
@@ -23,7 +23,22 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>WKND Events</title>
+    <meta name="description" content="WKND Events" />
+    <meta name="theme-color" content="#ffea08" />
+
+    <!-- Web app manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="favicon-192.png" />
+
+    <!-- AEM SPA model -->
+    <meta
+      property="cq:pagemodel_root_url"
+      content="%REACT_APP_PAGE_MODEL_PATH%"
+    />
   </head>
   <body>
     <noscript>

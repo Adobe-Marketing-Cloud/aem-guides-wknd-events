@@ -10,19 +10,20 @@
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "i": "^0.3.6",
-    "node-sass": "^4.11.0",
     "npm": "^6.9.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-fast-compare": "^2.0.4",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^2.1.8",
-    "react-styleguidist": "^9.0.6"
+    "react-scripts": "^3.2.0",
+    "react-styleguidist": "^9.0.6",
+    "register-service-worker": "^1.6.2",
+    "sass": "^1.23.7"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && clientlib --verbose",
+    "build": "react-scripts build && rm -f ./build/service-worker.js ./build/precache-manifest.*.js && node ./utils/service-worker/generate.js && clientlib",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "styleguide": "styleguidist server",
@@ -39,9 +40,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "aem-clientlib-generator": "^1.4.1",
+    "aem-clientlib-generator": "^1.5.0",
     "ajv": "^6.10.0",
     "clone": "^2.1.2",
-    "typescript": "^3.4.2"
+    "sinon": "^7.5.0",
+    "typescript": "^3.4.2",
+    "workbox-build": "^5.0.0-rc.1"
   }
 }
