@@ -28,6 +28,7 @@
         <module>react-app</module>
         <module>ui.apps</module>
         <module>ui.content</module>
+        <module>dispatcher</module>
     </modules>
 
     <properties>
@@ -580,7 +581,7 @@
                 <version>2.0.0</version>
                 <scope>provided</scope>
             </dependency>
-			
+
             <!-- Testing -->
             <dependency>
                 <groupId>junit</groupId>
