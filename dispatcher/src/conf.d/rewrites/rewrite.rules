@@ -27,3 +27,7 @@ RewriteCond %{REQUEST_URI} !^/tmp
 RewriteCond %{REQUEST_URI} !^/var
 RewriteCond %{REQUEST_URI} .html$
 RewriteRule ^/(.*)$ /content/${CONTENT_FOLDER_NAME}/$1 [PT,L]
+
+<Location ${CLIENTLIB_DIRECTORY}/${SERVICE_WORKER_NAME}>
+  Header always set Service-Worker-Allowed "/"
+</Location>
