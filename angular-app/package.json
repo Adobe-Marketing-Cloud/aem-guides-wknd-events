@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && clientlib --verbose",
+    "build": "ng build --prod && node ./utils/service-worker/generate.js && clientlib",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "core-js": "^2.5.4",
+    "register-service-worker": "^1.6.2",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
@@ -35,7 +36,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
-    "aem-clientlib-generator": "^1.4.1",
+    "aem-clientlib-generator": "^1.5.0",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -47,6 +48,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "workbox-build": "^5.0.0-rc.1"
   }
 }

@@ -8,6 +8,7 @@ import { TextComponent } from './components/text/text.component';
 import { ImageComponent } from './components/image/image.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ListComponent } from './components/list/list.component';
+import { OfflineBannerComponent } from './components/offline-banner/offline-banner.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListComponent } from './components/list/list.component';
     TextComponent,
     ImageComponent,
     HeaderComponent,
-    ListComponent
+    ListComponent,
+    OfflineBannerComponent
   ],
   imports: [
     BrowserModule,

@@ -23,8 +23,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
+              "src/assets",
               "src/favicon.ico",
-              "src/assets"
+              "src/favicon-192.png",
+              "src/favicon-512.png",
+              "src/manifest.json"
             ],
             "styles": [
               "src/styles.scss"
@@ -34,8 +37,11 @@
           "configurations": {
             "dev": {
               "assets": [
-                "src/favicon.ico",
                 "src/assets",
+                "src/favicon.ico",
+                "src/favicon-192.png",
+                "src/favicon-512.png",
+                "src/manifest.json",
                 "src/mocks"
               ]
             },
@@ -94,8 +100,11 @@
             ],
             "scripts": [],
             "assets": [
+              "src/assets",
               "src/favicon.ico",
-              "src/assets"
+              "src/favicon-192.png",
+              "src/favicon-512.png",
+              "src/manifest.json"
             ]
           }
         },

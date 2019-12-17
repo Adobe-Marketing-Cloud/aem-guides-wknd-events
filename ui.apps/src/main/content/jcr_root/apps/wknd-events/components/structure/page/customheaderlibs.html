@@ -7,7 +7,25 @@ Custom Headerlibs for Angular App
 <meta property="cq:datatype" data-sly-test="${wcmmode.edit || wcmmode.preview}" content="JSON"/>
 <meta property="cq:wcmmode" data-sly-test="${wcmmode.edit}" content="edit"/>
 <meta property="cq:wcmmode" data-sly-test="${wcmmode.preview}" content="preview"/>
-<meta property="cq:pagemodel_root_url" 
-    data-sly-use.page="com.adobe.aem.guides.wkndevents.core.models.HierarchyPage" 
+<meta property="cq:pagemodel_root_url"
+    data-sly-use.page="com.adobe.aem.guides.wkndevents.core.models.HierarchyPage"
     content="${page.rootUrl}"/>
 <sly data-sly-call="${clientLib.css @ categories='wknd-events.angular'}"></sly>
+
+<meta name="theme-color" content="#ffea08" />
+
+<!-- Web app manifest -->
+<link
+  rel="manifest"
+  href="/etc.clientlibs/wknd-events/clientlibs/angular-app/resources/manifest.json"
+/>
+
+<!-- Icons -->
+<link
+  rel="shortcut icon"
+  href="/etc.clientlibs/wknd-events/clientlibs/angular-app/resources/favicon.ico"
+/>
+<link
+  rel="apple-touch-icon"
+  href="/etc.clientlibs/wknd-events/clientlibs/angular-app/resources/favicon-192.png"
+/>
