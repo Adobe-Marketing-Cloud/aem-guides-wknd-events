@@ -1,3 +1,5 @@
+This tutorial is deprecated, it is recommended to follow https://github.com/adobe/aem-guides-wknd-spa for the latest tutorials and best practices with the AEM SPA Editor.
+
 # WKND Events SPA Editor Project
 
 This is the code companion for a tutorial that walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
